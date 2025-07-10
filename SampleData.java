@@ -7,8 +7,8 @@ public class SampleData {
     public static void loadSampleData(ObservableList<PizzaOrder> orders) {
         // Sample Customer 1
         PizzaOrder order1 = new PizzaOrder(
-            "Parmjeet", 
-            "555-1234", 
+            "harman", 
+            "23456789", 
             "XL", 
             3, 
             BillCalculator.calculate("XL", 3)
@@ -16,8 +16,8 @@ public class SampleData {
         
         // Sample Customer 2
         PizzaOrder order2 = new PizzaOrder(
-            "Dilpreet", 
-            "555-5678", 
+            "Raman", 
+            "23417865", 
             "L", 
             2, 
             BillCalculator.calculate("L", 2)
@@ -25,10 +25,11 @@ public class SampleData {
         
         // Sample Customer 3
         PizzaOrder order3 = new PizzaOrder(
-            "Piyush", 
-            "555-9012", 
+            "rohan", 
+            "567346976", 
             "M", 
             1, 
+             
             BillCalculator.calculate("M", 1)
         );
         
