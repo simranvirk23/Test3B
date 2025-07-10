@@ -11,7 +11,7 @@ public class Main extends Application {
         PizzaOrderPage orderPage = new PizzaOrderPage();
         Scene scene = new Scene(orderPage.getView(), 800, 600);
         stage.setScene(scene);
-        stage.setTitle("Pizza Ordering System - Navdeep Singh");
+        stage.setTitle("Pizza Ordering System - Simranjeet Kaur");
         stage.show();
     }
 
